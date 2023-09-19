@@ -30,6 +30,10 @@ Our data engineering team has delivered six datasheets in .CSV format containing
 
 📊 live presentation in video [youtube](https://youtube.com)
 
+![dashb1](https://github.com/PyAngel/Supply-chain-issue-in-the-FMCG-domain/assets/127798134/9a9ecc61-7c30-41e1-b7cc-609ef8845b9a)
+![dashb2](https://github.com/PyAngel/Supply-chain-issue-in-the-FMCG-domain/assets/127798134/c2a0db05-3799-432d-b0a3-c3227d9e5930)
+![dashb3](https://github.com/PyAngel/Supply-chain-issue-in-the-FMCG-domain/assets/127798134/d96ca1c5-7116-48fd-b808-818a7ab63b1c)
+
 ## INSIGHTS
 
 1. After analyzing our KPIs, we have found that our logistics chain needs to increase efforts and allocate resources to optimize shipments by an additional 50% beyond the current level, especially to ensure on-time and complete deliveries. We have observed that our OTIF indicator only reaches about ≈49% of the expected goal, leading to only ≈30% of our deliveries meeting the minimum effectiveness standard.
