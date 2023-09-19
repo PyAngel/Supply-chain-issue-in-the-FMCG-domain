@@ -84,3 +84,28 @@ Nuestro equipo de ingeniería de datos ha entregado 6 tablas en formato .CSV que
 - Dim_targets_orders: This table contains all target data at the customer level
 - Fact_order_lines: This table contains all information about orders and each item inside the orders.
 - Fact_orders_aggregate: This table contains information about OnTime, InFull and OnTime Infull information aggregated at the order level per customer
+
+ ## HALLAZGOS:
+
+1. Después de analizar nuestros indicadores clave de rendimiento (KPIs), hemos encontrado que nuestra cadena logística necesita aumentar esfuerzos y asignar recursos para optimizar los envíos en un 50% adicional más allá del nivel actual, especialmente para garantizar entregas completas y a tiempo. Hemos observado que nuestro indicador de OTIF solo alcanza aproximadamente un ≈49% de la meta esperada, lo que resulta en que solo aproximadamente un ≈30% de nuestras entregas cumplan con el estándar mínimo de efectividad.
+
+2. Al observar los KPIs por cliente, notamos que los clientes con pedidos de alto volumen (>1000 ordenes) se han visto afectados negativamente en cuanto al tiempo o la cantidad completa de sus pedidos (OTIF%). Sin embargo, esta métrica es general, y para ver la diferencia a lo largo de un período más largo, es necesario examinar toda la cadena de suministro dentro del marco de tiempo.
+
+3. Para garantizar la precisión, revisemos los códigos de cliente paso a paso y comparemos las métricas para cada usuario. Nos ha llamado la atención que las siguientes cuentas: 789122, 789420, 789522, 789421, 789422, 789520, 789601 y 789903 están experimentando problemas graves con la entrega, específicamente retrasos y envíos incompletos. Estos problemas han persistido durante un período significativo, lo que indica desafíos consistentes en la cadena de suministro. Del mismo modo, las cuentas 789121, 789521, 789603, 789702, 789621, 789503, 789103 y 789501 enfrentan desafíos con entregas incompletas, que están afectando negativamente nuestro indicador clave de rendimiento (KPI) y las relaciones con los clientes.
+
+4. Tras revisar los últimos gráficos, hemos llegado a la conclusión de que nos falta evidencia cuantitativa para determinar si nuestro problema radica en la cantidad total de los pedidos. Actualmente, todos nuestros productos se encuentran en aproximadamente un 60% - 70% del LIFR% (Tasa de Relleno de Inventario en el Plazo de Entrega), pero todos nuestros pedidos ya han alcanzado un 95% en VOFR%. Además, este porcentaje se ha mantenido estable durante un largo período de tiempo. Por lo tanto, podemos concluir que nuestro problema radica en la cadena de suministro, específicamente en la preparación y el envío de productos al cliente final.
+
+En este punto, es crucial evaluar si nuestros KPIs están directamente correlacionados con productos específicos.
+
+
+## CONCLUSIONES:
+
+Tras analizar el rendimiento de cada producto, hemos determinado que la ciudad de Surat enfrenta desafíos significativos en su cadena de suministro con respecto a los pedidos completados, con una alarmante tasa de error del 90% en todas las gamas de productos. Los gráficos y diagramas de caja revelan dos problemas principales.
+
+1. Alta Volatilidad: Los diagramas de caja para la ciudad de Surat muestran un amplio rango, lo que indica inestabilidad en nuestra cadena de suministro de productos. Esto está afectando negativamente a nuestros clientes, especialmente en términos económicos. Cada rango ya tiene un problema del 40% en la tasa de LIFR%.
+
+2. La ciudad de Vadodara también está experimentando problemas con pedidos incompletos en productos específicos, incluyendo Mantequilla 500, Yogur 100, Ghee 100 y Ghee 250.
+
+3. Nuestros productos, Leche 100, Leche 250 y Leche 500, han enfrentado problemas de entrega y producción en todas las ciudades.
+
+A la luz de estos hallazgos, instamos a los departamentos de Producción y Logística a analizar y revisar minuciosamente las líneas de fabricación de los siguientes productos: Galletas 750, Mantequilla 100, Mantequilla 250, Mantequilla 500, Yogur 100, Yogur 50, Ghee 100 y Ghee 250.
