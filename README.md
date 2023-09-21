@@ -78,12 +78,12 @@ El gerente general de Altiq Mart está preocupado por la no renovación de los c
 
 Nuestro equipo de ingeniería de datos ha entregado 6 tablas en formato .CSV que contienen toda la información de la cadena logística. Esta información fue registrada en el año fiscal 2022 y se distribuye de la siguiente manera:
 
-- Dim_customers: This table contains all the information about customers
-- Dim_date : This table contains all the information about the products
-- Dim_products: This table contains the dates at daily, monthly level and week numbers of the year
-- Dim_targets_orders: This table contains all target data at the customer level
-- Fact_order_lines: This table contains all information about orders and each item inside the orders.
-- Fact_orders_aggregate: This table contains information about OnTime, InFull and OnTime Infull information aggregated at the order level per customer
+- Dim_customers: Esta tabla contiene la información de los clientes
+- Dim_date : Esta tabla contiene información sobre productos
+- Dim_products: Esta tabla contiene las fechas como día, mes etiqueta y número de semana en el año
+- Dim_targets_orders: Esta tabla contiene todos los niveles objetivos para cada cliente
+- Fact_order_lines: Esta tabla contiene todas las ordenes y cada item correspondiente en cada orden
+- Fact_orders_aggregate: Esta tabla contiene la información de a tiempo, completo y a tiempo y completo agregada a cada nivel de orden por cliente.
 
  ## HALLAZGOS:
 
