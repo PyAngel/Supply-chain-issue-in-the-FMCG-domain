@@ -1,4 +1,4 @@
-[Enlace a la sección de análisis de datos](#proyecto-de-analisis-de-datos📊)
+[LEER EN ESPAÑOL](https://github.com/PyAngel/Supply-chain-issue-in-the-FMCG-domain/blob/main/README_ESP.md)
 
 # Data Analysis Project📊
 ## _➡️Supply Chain Issue In The FMCG Domain_
