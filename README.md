@@ -1,4 +1,4 @@
-[Enlace a la sección de análisis de datos](#esp-proyecto-de-analisis-de-datos📊)
+[Enlace a la sección de análisis de datos](#proyecto-de-analisis-de-datos📊)
 
 # Data Analysis Project📊
 ## _➡️Supply Chain Issue In The FMCG Domain_
