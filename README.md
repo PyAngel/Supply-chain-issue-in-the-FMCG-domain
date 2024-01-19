@@ -1,4 +1,6 @@
-# [ENG] Data Analysis Project📊
+[Enlace a la sección de análisis de datos](#esp-proyecto-de-analisis-de-datos📊)
+
+# Data Analysis Project📊
 ## _➡️Supply Chain Issue In The FMCG Domain_
 _Industry: Food, Dairy Products_
 
@@ -57,8 +59,8 @@ After analyzing the performance of each product, we have determined that Surat C
 - Our products, Milk 100, Milk 250, and Milk 500, have encountered delivery and production issues in all cities.
 
 - In light of these findings, we urge the Production and Logistics departments to thoroughly analyze and review the manufacturing lines for the following products: Biscuits 750, Butter 100, Butter 250, Butter 500, Curd 100, Curd 50, Ghee 100, and Ghee 250.
-
-# [ESP] Proyecto de análisis de datos📊
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Proyecto de análisis de datos📊
 ## _➡️Problema en cadena logística en bienes de consumo rápido_
 _industria: alimentos, lacteos_
 
